@@ -1,9 +1,13 @@
 # A Comprehensive Study on Database Access Bug Characteristics
 
 ## 0. Dataset
-Issue url: The URL of Issue report
+Format of the column:
 
-Commit url: The Commit URLs of Issue, seperated with `|`
+- Issue url: The URL of Issue report
+
+- Commit url: The Commit URLs of Issue, seperated with `|`
+
+- Type, Root cause: Root causes of database access bugs
 
 ## 1. RQ1
 
