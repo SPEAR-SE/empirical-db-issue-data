@@ -7,7 +7,7 @@ The dataset is also in:
 - https://docs.google.com/spreadsheets/d/1g8BWWy-yTDG7b7BhiuqP-vlJYFxnYaVEoVYANWY5vm0/edit?usp=sharing
 
 ## 1. RQ1
-The dataset is also in:
+The dataset contains:
 - database access bugs
 - non database access bugs
 
