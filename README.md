@@ -12,7 +12,4 @@ The dataset contains:
 - non database access bugs
 
 ## 2. RQ2&RQ3
-Root causes of database access bugs.
-
-## 3. RQ3
-script of statistical study on the database access bugs.
+Taxonomy of the root causes of database access bugs.
