@@ -11,7 +11,7 @@ The dataset contains:
 - database access bugs
 - non database access bugs
 
-## 2. RQ2
+## 2. RQ2&RQ3
 Root causes of database access bugs.
 
 ## 3. RQ3
