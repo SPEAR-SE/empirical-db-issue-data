@@ -28,8 +28,9 @@ def main():
             non_db_files_names_set.update(file_name_set)
         union_file_names_set = db_files_names_set.union(non_db_files_names_set)
         intersection_file_names_set = db_files_names_set.intersection(non_db_files_names_set)
+        pct = len(db_files_names_set) * 100 / len(union_file_names_set)
         jaccard_similarity = len(intersection_file_names_set) / len(union_file_names_set)
-        print('{' + str(len(db_files_names_set)) + '\\\\' + str(len(non_db_files_names_set)) + '}&' + str(len(intersection_file_names_set)) + '&' + '{:.2f}'.format(jaccard_similarity))
+        print('{' + str(len(db_files_names_set)) + '\\\\' + str(len(non_db_files_names_set)) + '}&' + '{:.1f}'.format(pct) + '&' + '{:.2f}'.format(jaccard_similarity))
         print('------------------------------------------')
 
 
