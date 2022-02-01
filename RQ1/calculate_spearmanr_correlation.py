@@ -34,7 +34,7 @@ def main():
         mean_correlation_intervals = 'mean and correlation:'
         for interval in [3, 6]:
             mean_frequency_db, corr_spearman = calculate_corr_spearman(create_time_list_db, create_time_list_non_db, interval)
-            mean_correlation_intervals += ('&{:.2f}'.format(mean_frequency_db) + '&{:.1f}'.format(corr_spearman))
+            mean_correlation_intervals += ('&{:.1f}'.format(corr_spearman))
         print(mean_correlation_intervals)
 
 
