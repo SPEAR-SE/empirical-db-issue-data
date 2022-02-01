@@ -5,8 +5,8 @@ The dataset contains 423 database access bugs and 4,900 non database access bugs
 
 ## 1. RQ1
 The dataset contains:
-- database access bugs
-- non database access bugs
+- 423 database access bugs
+- 4,900 non-database access bugs
 
 ## 2. RQ2&RQ3
 Taxonomy of the root causes of database access bugs.
