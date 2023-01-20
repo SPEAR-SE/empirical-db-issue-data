@@ -1,4 +1,4 @@
-# An Empirical Study on the Characteristics of Database Access Bugs
+# An Empirical Study on the Characteristics of Database Access Bugs in Java Applications
 
 The dataset contains 423 database access bugs and 4,900 non database access bugs from 5,323 studied bug issues.
 
